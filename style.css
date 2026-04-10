@@ -29,27 +29,29 @@
   align-items: center;
 }
 
-
-.number{
-  padding: 70px;
+.number {
+  width: 20px;
 }
-th{
+th {
   border: none;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
 }
 
-img{
+img {
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-@media (max-width:840px) {
-  tr{
-    display: flex;
-    flex-direction: column;
-  }
+td {
+  text-align: center;
+}
 
-  .number{
+@media (max-width: 840px) {
+  .number {
     padding: 0;
   }
+
+
 }
